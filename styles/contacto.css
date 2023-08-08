@@ -1,0 +1,45 @@
+.container{
+    border: 2px solid #009EFF;
+    margin: 20px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    display: flex;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    
+}
+
+label {
+    color:#009EFF;
+}
+
+input, select{
+    background-color: #009EFF;
+    color: white;
+    border: none;
+}
+
+textarea{
+    background-color: #009EFF;
+    color: white;
+    border: none;
+}
+
+input[type="submit"]{
+    float: right;
+    padding: 10px;
+    color: #070626;
+    cursor:url(/assets/img/cursor.png), auto;
+}
+
+input[type="submit"]:hover{
+    background-color: white;
+}
+

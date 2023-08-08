@@ -1,0 +1,33 @@
+.video-vertical{
+    margin: 20px;
+    float: left;
+    width: auto;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.galery{
+    margin: 5px;
+    border: 1px solid #009EFF;
+    float: left;
+    width: 33vw;
+}
+
+div.galery img{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    padding: 15px;
+    text-align: center;
+    color: #6443D9;
+}
+
+.products{
+    margin: 20px;
+    padding: 20px 0;
+}

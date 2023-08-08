@@ -1,0 +1,32 @@
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Un elemento <img> es un elemento en línea (el valor display de inline-block). Puede ser fácilmente centrado añadiendo el text-align: center; propiedad CSS al elemento padre que lo contiene. */
+/* Para centrar una imagen usando text-align: center; debes colocar el <img> dentro del elemento de nivel de bloque como es un div. Ya que la propiedad text-align solo aplica a los elementos nivel de bloque, coloque text-align: center; encerrar dentro del elemento nivel de bloque para lograr un<img> un centrado horizontal. */
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    margin: 10px;
+    padding: 10px;
+}
+
+.image1 {
+    float: right;
+    margin: 0 20px 20px 20px;
+    max-width: 50%;
+    height: auto;
+}
+
+.image2 {
+    float: left;
+    margin: 0 20px 20px 20px;
+    max-width: 15%;
+    height: auto;
+}

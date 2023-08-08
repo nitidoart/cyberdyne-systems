@@ -1,0 +1,81 @@
+body{
+    font-family: consolas,'Courier New',monospace, Menlo,Monaco;
+    background: linear-gradient(to right, #070626, #111559);
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+header{
+    text-align: center;
+    
+}
+
+.active{
+    background-color: #070626;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#6443D9;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #009EFF ;
+}
+
+h1{
+    font-size: 36px;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    color:#6443D9;
+}
+
+h2{
+    font-size: 28px;
+    margin: 20px 0 ;
+    text-align: center;
+    padding: 0;
+    color: white;
+}
+
+h3{
+    font-size: 26px;
+    margin: 40px 20px 0 80px;
+    padding: 0;
+    color: #6443D9;
+}
+
+footer{
+    background-color: #070626;
+    color: #6443D9;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    margin: 20px;
+}
